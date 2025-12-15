@@ -28,3 +28,20 @@ body {
 #site-footer small {
     opacity: 0.8;
 }
+
+#galeria {
+    margin-top: 24px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-top: 12px;
+}
+
+.card {
+    padding: 14px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
