@@ -20,4 +20,9 @@ btnMenos?.addEventListener("click", () => {
 
 render();
 
+const btnTema = document.getElementById("toggleTema");
+btnTema?.addEventListener("click", () => {
+  document.body.classList.toggle("dark");
+});
+
 console.log("app ok"); 

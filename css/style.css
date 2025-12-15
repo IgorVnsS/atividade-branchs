@@ -45,3 +45,16 @@ body {
     border: 1px solid #ddd;
     border-radius: 8px;
 }
+
+body.dark {
+    background: #111;
+    color: #f2f2f2;
+}
+
+body.dark a {
+    color: #d7d7ff;
+}
+
+body.dark .card {
+    border-color: #333;
+}
