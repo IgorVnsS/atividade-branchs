@@ -18,3 +18,13 @@ body {
     font-family: Arial;
     margin: 24px;
 }
+
+#site-footer {
+    margin-top: 32px;
+    padding-top: 16px;
+    border-top: 1px solid #ddd;
+}
+
+#site-footer small {
+    opacity: 0.8;
+}
