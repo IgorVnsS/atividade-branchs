@@ -25,4 +25,14 @@ btnTema?.addEventListener("click", () => {
   document.body.classList.toggle("dark");
 });
 
+const formContato = document.getElementById("formContato");
+const outContato = document.getElementById("resultadoContato");
+
+formContato?.addEventListener("submit", (e) => {
+  e.preventDefault();
+  const nome = document.getElementById("nome")?.value ?? "";
+  const msg = document.getElementById("msg")?.value ?? "";
+  if (outContato) outContato.textContent = `Recebido de ${nome}: ${msg}`;
+});
+
 console.log("app ok"); 
